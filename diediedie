@@ -1,0 +1,29 @@
+<triggers>
+  <trigger
+   enabled="y"
+   match="[Exits: *]"
+   send_to="12"
+   sequence="100"
+  >
+  <send>
+
+win = GetPluginID () .. ":exits"
+font = "f"
+
+WindowCreate (win, 0, 0, 1, 1, 4, 0, 0)
+
+WindowFont (win, font, "Courier", 10, true)
+
+height = WindowFontInfo (win, font, 1)  + 10
+
+width = WindowTextWidth (win, font, "%0") + 10
+
+WindowCreate (win, 0, 0, width, height, 4, 0, ColourNameToRGB "sienna")
+
+WindowText (win, font, "%0", 5, 5, 0, 0, ColourNameToRGB ("yellow"))
+
+WindowShow (win, true)
+
+</send>
+  </trigger>
+</triggers>
