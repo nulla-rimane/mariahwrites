@@ -1,0 +1,3 @@
+client.display_notice ("- - - this is currently an index of all the things this package thing offers at the moment. please keep in mind that updates and new features are pending unless otherwise noted. \n
+BASIC UTILITY ALIASES : pw for path walk, tv for transverse, gg for get gold, bsp for gathering bards, scholars, and pilgrims.\n
+BASIC BASHING ALIASES : x for targetting, at <bash attack> for setting your type of bashing attack - i.e. at play minorsecond, point talisman, etc. - and k to begin attacking.\n - - -")
